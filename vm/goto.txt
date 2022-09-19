@@ -1,0 +1,14 @@
+# Simple Jump
+
+Goto main
+
+#Skip the two lines below
+iconst 65
+syscall 3
+
+main:
+ iconst 20
+ iconst 40
+ add
+ syscall 2
+halt

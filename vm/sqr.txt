@@ -1,0 +1,32 @@
+# Square numbers 1 to 20
+
+.globals [0] count
+.globals [1] counter
+.globals [3] squared
+
+iconst_1
+istore squared
+iconst 20
+istore count
+iconst_1
+istore counter
+
+loop:
+ iload squared
+ syscall 2
+ iload counter
+
+ iload counter
+ inc
+ istore counter
+ 
+ iload counter
+ dup
+ mul
+ istore squared
+
+ iload counter
+ iload count
+ leq
+ jt loop
+halt

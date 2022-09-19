@@ -1,0 +1,26 @@
+# Print A..Z
+.globals [0] count
+.globals [1] counter
+
+iconst 90
+istore count
+iconst 65
+istore counter
+
+loop:
+ iload counter
+ 
+ #Use system call 3 to print char
+ syscall 3
+
+ iload counter
+ inc
+ istore counter
+ 
+ iload counter
+ iload count
+ leq
+ jt loop
+halt
+
+

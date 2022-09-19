@@ -1,0 +1,17 @@
+# is odd test
+
+.globals [0] x
+.globals [1] y
+
+# x = (3 & 1)
+
+iconst 3
+istore x
+iload x
+iconst_1
+and
+istore y
+iload y
+
+syscall 2
+halt

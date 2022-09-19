@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Fizz.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="787"/>
+        <CursorPos X="32" Y="799"/>
+        <UsageCount Value="68"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cstack.pas"/>
+        <UnitName Value="cStack"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="73" Y="22"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="cvars.pas"/>
+        <UnitName Value="cVars"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="30"/>
+        <CursorPos X="24" Y="45"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="clables.pas"/>
+        <UnitName Value="cLables"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="38" Y="44"/>
+        <UsageCount Value="34"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="3">
+      <Position>
+        <Filename Value="cvars.pas"/>
+        <Caret Line="43" Column="19" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="cvars.pas"/>
+        <Caret Line="42" Column="21" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="cstack.pas"/>
+        <Caret Line="69" Column="27" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="Fizz.pas"/>
+        <Caret Line="357" Column="20" TopLine="352"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

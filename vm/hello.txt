@@ -1,0 +1,24 @@
+# Print out hello world.
+# Uses loop to print each char on the stack until 0 is found.
+
+ iconst_0
+ iconst 10
+ iconst '!'
+ iconst 'd'
+ iconst 'l'
+ iconst 'r'
+ iconst 'o'
+ iconst 'w'
+ iconst ' '
+ iconst 'o'
+ iconst 'l'
+ iconst 'l'
+ iconst 'e'
+ iconst 'H'
+
+loop:
+ syscall 3
+ jnz loop
+halt
+
+

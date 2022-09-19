@@ -1,0 +1,7 @@
+# compare
+
+iconst 1
+iconst 11
+geq
+syscall 1
+halt

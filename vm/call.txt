@@ -1,0 +1,26 @@
+
+goto main
+
+AddNums:
+ iconst 5
+ iconst 6
+ add
+ istore_1
+ call mulnums
+Ret
+
+mulnums:
+ iconst 5
+ iconst 6
+ mul
+ istore_2
+ret
+
+main:
+ call AddNums
+ iload_1
+ syscall 2
+ iload_2
+ syscall 2
+halt
+

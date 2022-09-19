@@ -1,0 +1,21 @@
+# Count down from 10
+.globals [0] count
+.globals [1] counter
+
+iconst 10
+istore count
+iconst 1
+istore counter
+
+loop:
+ iload count
+ syscall 2
+ iload count
+ dec
+ istore count
+ 
+ iload count
+ iload counter
+ geq
+ jt loop
+halt

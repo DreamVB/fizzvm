@@ -1,8 +1,10 @@
 # fizzvm
 
-This is a simple stack virtual machine after reading a few articles on the internet, my idea is to make my own programming language with a compiler and bytecode interpreter a little like Java so I can run on different platforms. I have so far done a basic VM that runs pretty well, I soon will write a simple compiler that I can translate my own syntax to the assembly code that will with my VM.
-Now the VM loads a text file with an assembly like language and builds a byte array of integers then executes the instructions. Plan to separate the assembler code and the VM interpreter soon I just really testing so bear with me. 
-I know there no documentation now I plan to add that with future versions. But feel free to test out some of the examples I included.
+This is a simple stack virtual machine I made after reading a few articles and getting ideas on the subject, my goal is to try and make my own programming language with a compiler and bytecode interpreter a little like Java that can run my little programs on different platforms. 
+I have so far done a basic VM that runs some small programs, I soon I hope to write a simple compiler that I can translate my own high-level language to the assembly code then the assembler will compile to bytecode that can executed on my own virtual machine.
+With the current version the project loads a plain text file from the command prompt with an assembly like language then builds a byte array of integers then executes the instructions. My idea is to in future versions separate the assembler compiler and the VM interpreter. At this moment I am just really testing so bear with me. 
+There is really no documentation yet, I plan to add this with future updates; however, I have left some examples to get you started and get an idea. If you really get stuck, you can contact me or view the source code.
+
 
 ## Compile and running
 For this you need Free Pascal or Lazarus, it should be easy to also work it in Delphi as well.
